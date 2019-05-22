@@ -44,6 +44,8 @@ nav a {
 
 section p {
     text-align: justify;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 90%;
 }
 
 iframe {
