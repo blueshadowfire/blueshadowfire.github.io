@@ -1,0 +1,65 @@
+body {
+    background: #ffffff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #F96A2D;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+dl dt {
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 90%;
+    font-style: oblique;
+}
+
+dl dd {
+    text-align: justify;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 75%;
+}
+
+nav {
+    background: #427AA1;
+    text-align: center;
+}
+
+nav a {
+    color: #EBF2FA;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 250%;
+    padding: 3%;
+}
+
+section p {
+    text-align: justify;
+}
+
+iframe {
+    width: 100%;
+}
+
+table {
+    text-align: center;
+}
+
+form {
+    text-align: justify;
+    margin: 2%;
+}
+
+form input {
+    margin: 1%;
+}
+
+footer {
+    background: #EBF2FA;
+    color: #427AA1;
+}
