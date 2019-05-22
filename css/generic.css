@@ -13,6 +13,10 @@ h6 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+header h1 {
+    text-align: left;
+}
+
 dl dt {
     text-align: justify;
     font-family: Arial, Helvetica, sans-serif;
@@ -43,11 +47,15 @@ section p {
 }
 
 iframe {
-    width: 100%;
+    width: 90%;
+    margin: 5%;
 }
 
 table {
     text-align: center;
+    width: 90%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 form {
@@ -62,4 +70,11 @@ form input {
 footer {
     background: #EBF2FA;
     color: #427AA1;
+}
+
+.turismo img {
+    width: 70%;
+    height: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
 }
