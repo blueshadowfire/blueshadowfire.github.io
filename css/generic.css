@@ -1,5 +1,5 @@
 body {
-    background: #ffffff;
+    background: #ecf0f1;
 }
 
 h1,
@@ -31,15 +31,37 @@ dl dd {
 }
 
 nav {
-    background: #427AA1;
     text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background: #3498db;
 }
 
 nav a {
-    color: #EBF2FA;
+    color: #ecf0f1;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     line-height: 250%;
-    padding: 3%;
+    text-decoration-line: none;
+    border: 52px;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+nav a:hover {
+    color: #e67e22;
+    text-decoration-line: underline;
+    background: #EBF2FA;
+    border-radius: 50%;
+}
+
+nav a:active {
+    color: #EBF2FA;
+    text-decoration-line: underline;
+    background: #e74c3c;
+    border-radius: 50%;
 }
 
 section p {
@@ -58,6 +80,16 @@ table {
     width: 90%;
     margin-left: 10%;
     margin-right: 10%;
+}
+
+th {
+    background: #DC4505;
+    color: #FFFFFF;
+}
+
+td {
+    color: #FFFFFF;
+    background: #F97740;
 }
 
 form {

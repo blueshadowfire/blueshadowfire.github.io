@@ -1,0 +1,181 @@
+body {
+    padding-top: 0;
+    margin: 0 auto;
+    width: 80%;
+    background-image: url("../imgZozor/fond_jaune.png");
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo h1 {
+    font-size: 200%;
+    font-family: cursive;
+}
+
+.logo p {
+    font-size: 120%;
+}
+
+header nav {
+    width: 50%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+header nav a {
+    margin-right: 5%;
+    font-size: 150%;
+    text-decoration: none;
+}
+
+.line {
+    background-image: url("../imgZozor/separateur.png");
+    background-repeat: repeat-x;
+    background-size: auto 100%;
+    width: 100%;
+    height: 3px;
+    margin: 1% auto;
+}
+
+article {
+    width: 100%;
+    background: #eccfa9;
+    position: relative;
+    border-radius: 10px;
+}
+
+.sanFrancisco {
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+}
+
+.articleDetail {
+    position: absolute;
+    bottom: 0%;
+    background: rgb(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    color: white;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.articleDetail h4 {
+    font-size: 100%;
+}
+
+.btnArticle {
+    background-image: url("../imgZozor/fond_degraderouge.png");
+    background-repeat: repeat-x;
+    background-size: auto 100%;
+    border: 0;
+    color: white;
+    margin: 0.5%;
+    border-radius: 3px;
+    height: 60%;
+}
+
+.secContent {
+    display: flex;
+    text-align: justify;
+}
+
+.secTraveller {
+    width: 70%;
+}
+
+.secTraveller h1 {
+    display: flex;
+    align-items: center;
+}
+
+.secTraveller p {
+    font-family: Tahoma, Geneva, sans-serif;
+}
+
+aside {
+    width: 30%;
+    display: flex;
+    align-content: flex-end;
+    margin: 2%;
+    height: 40%;
+}
+
+.arrow {
+    height: 20px;
+    padding-top: 20%;
+}
+
+.about {
+    background: #706B65;
+    color: white;
+    border-radius: 10px;
+    padding: 5%;
+}
+
+.about h3 {
+    font-size: 110%;
+}
+
+.about p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80%;
+}
+
+.imgProfile {
+    margin: auto 25%;
+    width: 50%;
+    border: 1px solid black;
+}
+
+.social {
+    display: flex;
+    justify-content: space-between;
+}
+
+.line2 {
+    background-image: url("../imgZozor/separateur.png");
+    background-repeat: repeat-x;
+    background-size: auto 100%;
+    width: 100%;
+    height: 3px;
+    margin-top: 1%;
+}
+
+.btnTop input {
+    margin: auto 46%;
+}
+
+.tweet,
+.pictures,
+.friends {
+    width: 33%;
+    float: left;
+    margin-bottom: 2%;
+}
+
+.imgPictures {
+    display: flex;
+    align-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.pictures img {
+    height: 90px;
+    border: 2px solid black;
+    margin: 0.5%;
+}
+
+.friends ul {
+    list-style-image: url("../imgZozor/ico_liensexterne.png");
+    columns: 2;
+    list-style-position: inside;
+    color: crimson;
+}
