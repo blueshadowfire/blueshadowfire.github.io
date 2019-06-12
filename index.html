@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <title>Document</title>
+    <title>Iweb: Página principal</title>
 
     <!--Metadatos del sitio web-->
     <meta name="author" content="Edson Guadalupe" />
@@ -17,46 +17,128 @@
     <!--Favicon-->
     <link rel="icon" type="image/png" href="img/html.png" />
 
+
+    <!-- Modernizr -->
+    <script src="css/groundwork-master/js/libs/modernizr-2.6.2.min.js"></script>
+    <!-- framework css -->
+    <link type="text/css" rel="stylesheet" href="css/groundwork-master/css/groundwork.css">
+    <link type="text/css" rel="stylesheet" href="css/w3.css">
+    <link type="text/css" rel="stylesheet" href="css/pure-release-1.0.0/pure.css">
+
     <!--Css-->
+    <!--
     <link rel="stylesheet" href="css/generic.css" type="text/css" />
-    <link rel="stylesheet" href="ifonts/style.css" type="text/css" />
+    -->
+    <!--Ifonts-->
+    <link rel="stylesheet" href="ifonts/icomoon/style.css" type="text/css" />
+    <link rel="stylesheet" href="ifonts/fontawesome-free-5.9.0-web/css/all.css" type="text/css" />
+
+    <!--Tfonts-->
+    <link href="https://fonts.googleapis.com/css?family=Courgette|Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/tfonts.css" type="text/css" />
+
 </head>
 
-<body>
-    <header>
-        <h1>Práctica 1 - Ingeniería web</h1>
-        <nav>
-            <a href="index.html"><span class="icon-home2"></span> Información personal</a>
-            <a href="contactos.html"><span class="icon-profile"></span> Contactos</a>
-            <a href="turismo.html"><span class="icon-bookmark"></span> Turismo Cajamarca</a>
-            <a href="prueba.html"><span class="icon-html-five"></span> Prueba</a>
-            <a href="ejercicio1.html"><img src="imgZozor/zozor_logo.png"></img> Zozor</a>
+<body class="container">
+    <header class="top padded">
+        <div class="row">
+            <div class="three sixths tada animated ">
+                <a href="index.html">
+                    <div class="one third">
+                        <img src="img/iWeb.png" alt="Iweb" width="100%" />
+                    </div>
+                    <div class="one thirds pad-top">
+                        <h1 class="w3-text-black tfont-Courgette">Ingeniería Web</h1>
+                    </div>
+                </a>
+            </div>
+            <div class="two sixths right-one triple-gap-top">
+                <address class="info box small lightSpeedIn animated ">
+                    Autor:Edson Guadalupe
+                    <br/> 
+                    Última modificación: 12 de junio de 2019 
+                </address>
+                <div class="padded pull-right fadeInLeft animated">
+                    <ul class="button-group">
+                        <li>
+                            <button class="info"><i class="fab fa-facebook-f"></i></button>
+                        </li>
+                        <li>
+                            <button class="red"><i class="fab fa-google-plus-g"></i></button>
+                        </li>
+                        <li>
+                            <button class="info"><i class="fab fa-twitter"></i></button>
+                        </li>
+                        <li>
+                            <button class="red"><i class="fab fa-pinterest-p"></i></button>
+                        </li>
+
+                        <li>
+                            <button class="info"><i class="fab fa-linkedin-in"></i></button>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <nav class="nav orange">
+            <ul>
+                <li><a class="orange button" href="index.html"><span class="icon-home2"></span> Información personal</a></li>
+                <li><a class="orange button" href="contactos.html"><span class="icon-profile"></span> Contactos</a></li>
+                <li><a class="orange button" href="turismo.html"><span class="icon-bookmark"></span> Turismo Cajamarca</a></li>
+                <li><a class="orange button" href="ejercicio1.html"> Zozor</a></li>
+            </ul>
         </nav>
     </header>
-    <section>
-        <h2>Información personal</h2>
-        <img src="img/perfil.png" alt="perfil" height="100" />
-        <dl>
-            <dt><strong>Nombre</strong></dt>
-            <dd>Derly Edson Guadalupe Solano</dd>
-            <dt><strong><br/>Edad</strong></dt>
-            <dd>20 años</dd>
-            <dt><strong><br/>Lugar de origen</strong></dt>
-            <dd>Cajamarca, Cajamarca, Perú</dd>
-        </dl>
+    <section class="double-gapped w3-card">
+        <header class="w3-container w3-blue">
+            <div class="row">
+                <div class="one half">
+                    <h2>Información personal</h2>
+                </div>
+
+
+            </div>
+
+        </header>
+
+        <div class="w3-container padded row">
+            <div class="one third">
+                <div class="w3-card w3-round gapped bounceInLeft animated" style="width:80%">
+                    <img class="w3-round" src="img/perfil.png" alt="Person" style="width:100%">
+                    <div class="w3-container">
+                        <h4 class="tfont-IndieFlower"><b>Derly Edson Guadalupe Solano</b></h4>
+                        <p class="tfont-OpenSans">Estudiante de Ingeniería de sistemas</p>
+                    </div>
+                </div>
+            </div>
+            <div class=" two thirds">
+                <div class="gapped box w3-cyan tfont-OpenSans animated bounceInUp">
+                    <dl>
+                        <dt><strong><br/>Edad</strong></dt>
+                        <dd>21 años</dd>
+                        <dt><strong><br/>Lugar de origen</strong></dt>
+                        <dd>Cajamarca, Cajamarca, Perú</dd>
+                    </dl>
+                </div>
+
+            </div>
+        </div>
     </section>
-    <footer>
+    <footer class="padded block bottom success small box">
         <p>
             <abbr title="Universidad Nacional de Cajamarca">UNC</abbr>
             <br/>Facultad de Ingeniería
             <br/>Escuela Académico Profesional de Ingeniería de Sistemas
         </p>
-        <address>
-            Autor:Edson Guadalupe
-            <br/> 
-            Última modificación: 08 de mayo de 2019 
-        </address>
     </footer>
+
+
+    <!--js-->
+    <script type="text/javascript" src="css/groundwork-master/js/libs/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="css/groundwork-master/js/groundwork.all.js"></script>
 </body>
 
 </html>

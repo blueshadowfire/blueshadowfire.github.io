@@ -1,0 +1,14 @@
+.tfont-Courgette {
+    font-family: 'Courgette', cursive;
+    src: url("tfonts/Courgette/Courgette-Regular.ttf");
+}
+
+.tfont-OpenSans {
+    font-family: 'Open Sans', sans-serif;
+    src: url("tfonts/Open_Sans/OpenSans-Regular.ttf");
+}
+
+.tfont-IndieFlower {
+    font-family: 'Indie Flower', cursive;
+    src: url("tfonts/IndieFlower/IndieFlower.ttf");
+}

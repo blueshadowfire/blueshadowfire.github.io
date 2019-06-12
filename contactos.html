@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <title>Document</title>
+    <title>Iweb: contactos</title>
 
     <!--Metadatos del sitio web-->
     <meta name="author" content="Edson Guadalupe" />
@@ -16,76 +16,228 @@
 
     <!--Favicon-->
     <link rel="icon" type="image/png" href="img/html.png" />
+
+    <!-- Modernizr -->
+    <script src="css/groundwork-master/js/libs/modernizr-2.6.2.min.js"></script>
+    <!-- framework css -->
+    <link type="text/css" rel="stylesheet" href="css/groundwork-master/css/groundwork.css">
+    <link type="text/css" rel="stylesheet" href="css/w3.css">
+    <link type="text/css" rel="stylesheet" href="css/pure-release-1.0.0/pure.css">
+
     <!--Css-->
+    <!--
     <link rel="stylesheet" href="css/generic.css" type="text/css" />
-    <link rel="stylesheet" href="ifonts/style.css" type="text/css" />
+    -->
+    <!--Ifonts-->
+    <link rel="stylesheet" href="ifonts/icomoon/style.css" type="text/css" />
+    <link rel="stylesheet" href="ifonts/fontawesome-free-5.9.0-web/css/all.css" type="text/css" />
+
+    <!--Tfonts-->
+    <link href="https://fonts.googleapis.com/css?family=Courgette|Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/tfonts.css" type="text/css" />
 </head>
 
-<body>
-    <header>
-        <h1>Práctica 1 - Ingeniería web</h1>
-        <nav>
-            <a href="index.html"><span class="icon-home2"></span> Información personal</a>
-            <a href="contactos.html"><span class="icon-profile"></span> Contactos</a>
-            <a href="turismo.html"><span class="icon-bookmark"></span> Turismo Cajamarca</a>
-            <a href="prueba.html"><span class="icon-html-five"></span> Prueba</a>
-            <a href="ejercicio1.html"><img src="imgZozor/zozor_logo.png"></img> Zozor</a>
+<body class="container">
+    <header class="top padded">
+        <div class="row">
+            <div class="three sixths flash animated ">
+                <a href="index.html">
+                    <div class="one third">
+                        <img src="img/iWeb.png" alt="Iweb" width="100%" />
+                    </div>
+                    <div class="one thirds pad-top">
+                        <h1 class="w3-text-black tfont-Courgette">Ingeniería Web</h1>
+                    </div>
+                </a>
+            </div>
+            <div class="two sixths right-one triple-gap-top">
+                <address class="info box small lightSpeedIn animated ">
+                            Autor:Edson Guadalupe
+                            <br/> 
+                            Última modificación: 12 de junio de 2019 
+                        </address>
+                <div class="padded pull-right fadeInLeft animated">
+                    <ul class="button-group">
+                        <li>
+                            <button class="info"><i class="fab fa-facebook-f"></i></button>
+                        </li>
+                        <li>
+                            <button class="red"><i class="fab fa-google-plus-g"></i></button>
+                        </li>
+                        <li>
+                            <button class="info"><i class="fab fa-twitter"></i></button>
+                        </li>
+                        <li>
+                            <button class="red"><i class="fab fa-pinterest-p"></i></button>
+                        </li>
+
+                        <li>
+                            <button class="info"><i class="fab fa-linkedin-in"></i></button>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <nav class="nav orange">
+            <ul>
+                <li><a class="orange button" href="index.html"><span class="icon-home2"></span> Información personal</a></li>
+                <li><a class="orange button" href="contactos.html"><span class="icon-profile"></span> Contactos</a></li>
+                <li><a class="orange button" href="turismo.html"><span class="icon-bookmark"></span> Turismo Cajamarca</a></li>
+                <li><a class="orange button" href="ejercicio1.html"> Zozor</a></li>
+            </ul>
         </nav>
     </header>
 
-    <section>
-        <h2>Contactos</h2>
-        <section>
-            <h3>Contacto 1</h3>
-            <img src="img/perfil.png" alt="perfil" height="100" />
-            <dl>
-                <dt><strong>Correo</strong></dt>
-                <dd>contacto@unc.com</dd>
-                <dt><strong><br/>Celular</strong></dt>
-                <dd>987654321</dd>
-            </dl>
-        </section>
-        <section>
-            <h3>Contacto 2</h3>
-            <img src="img/perfil.png" alt="perfil" height="100" />
-            <dl>
-                <dt><strong>Correo</strong></dt>
-                <dd>contacto@unc.com</dd>
-                <dt><strong><br/>Celular</strong></dt>
-                <dd>987654321</dd>
-            </dl>
-        </section>
-    </section>
+    <div class="double-gapped padded">
+        <div class="row">
+            <div class="two thirds">
+                <section class="gapped w3-card-4">
+                    <header class="w3-container w3-blue">
+                        <h2>Contactos</h2>
+                    </header>
 
-    <section>
-        <h2>Registrar contacto</h2>
-        <form>
-            Nombre
-            <input type="text" name="Nombre" value="" />
-            <br/> Imagen
-            <input type="file" name="Imagen" />
-            <br/> Correo
-            <input type="email" name="Correo" value="" />
-            <br/> Celular
-            <input type="tel" name="Celular" value="" />
-            <br/>
-            <input type="submit" name="Guardar" value="Guardar" />
-            <input type="reset" name="Borrar" value="Borrar formulario" />
-        </form>
-    </section>
+                    <div class="container double-padded row">
+                        <section class="double-padded one half bounceIn animated ">
+                            <div class="w3-card w3-round-large">
+                                <header class="w3-container w3-center w3-padding w3-deep-orange">
+                                    <h4 class="tfont-IndieFlower">Contacto 1</h4>
+                                </header>
+                                <div class="w3-display-container w3-text-blue">
+                                    <img src="img/perfil.png" alt="perfil" width="100%" />
 
-    <footer>
+                                </div>
+                                <footer class="w3-container w3-padding w3-pale-green w3-text-green">
+                                    <dl>
+                                        <dt><i class="far fa-envelope"></i></dt>
+                                        <dd>contacto@unc.com</dd>
+                                        <dt><i class="fas fa-mobile-alt"></i></dt>
+                                        <dd>987654321</dd>
+                                    </dl>
+                                </footer>
+                            </div>
+                        </section>
+                        <section class="double-padded one half bounceIn animated ">
+                            <div class="w3-card w3-round-large">
+                                <header class="w3-container w3-center w3-padding w3-deep-orange">
+                                    <h4 class="tfont-IndieFlower">Contacto 2</h4>
+                                </header>
+                                <div class="w3-display-container w3-text-blue">
+                                    <img src="img/perfil.png" alt="perfil" width="100%" />
+
+                                </div>
+                                <footer class="w3-container w3-padding w3-pale-green w3-text-green">
+                                    <dl>
+                                        <dt><i class="far fa-envelope"></i></dt>
+                                        <dd>contacto@unc.com</dd>
+                                        <dt><i class="fas fa-mobile-alt"></i></dt>
+                                        <dd>987654321</dd>
+                                    </dl>
+                                </footer>
+                            </div>
+                        </section>
+                        <section class="double-padded one half bounceIn animated">
+                            <div class="w3-card w3-round-large">
+                                <header class="w3-container w3-center w3-padding w3-deep-orange">
+                                    <h4 class="tfont-IndieFlower">Contacto 3</h4>
+                                </header>
+                                <div class="w3-display-container w3-text-blue">
+                                    <img src="img/perfil.png" alt="perfil" width="100%" />
+
+                                </div>
+                                <footer class="w3-container w3-padding w3-pale-green w3-text-green">
+                                    <dl>
+                                        <dt><i class="far fa-envelope"></i></dt>
+                                        <dd>contacto@unc.com</dd>
+                                        <dt><i class="fas fa-mobile-alt"></i></dt>
+                                        <dd>987654321</dd>
+                                    </dl>
+                                </footer>
+                            </div>
+                        </section>
+                        <section class="double-padded one half bounceIn animated">
+                            <div class="w3-card w3-round-large">
+                                <header class="w3-container w3-center w3-padding w3-deep-orange">
+                                    <h4 class="tfont-IndieFlower">Contacto 4</h4>
+                                </header>
+                                <div class="w3-display-container w3-text-blue">
+                                    <img src="img/perfil.png" alt="perfil" width="100%" />
+
+                                </div>
+                                <footer class="w3-container w3-padding w3-pale-green w3-text-green">
+                                    <dl>
+                                        <dt><i class="far fa-envelope"></i></dt>
+                                        <dd>contacto@unc.com</dd>
+                                        <dt><i class="fas fa-mobile-alt"></i></dt>
+                                        <dd>987654321</dd>
+                                    </dl>
+                                </footer>
+                            </div>
+                        </section>
+                        <section class="double-padded one half bounceIn animated">
+                            <div class="w3-card w3-round-large">
+                                <header class="w3-container w3-center w3-padding w3-deep-orange">
+                                    <h4 class="tfont-IndieFlower">Contacto 5</h4>
+                                </header>
+                                <div class="w3-display-container w3-text-blue">
+                                    <img src="img/perfil.png" alt="perfil" width="100%" />
+
+                                </div>
+                                <footer class="w3-container w3-padding w3-pale-green w3-text-green">
+                                    <dl>
+                                        <dt><i class="far fa-envelope"></i></dt>
+                                        <dd>contacto@unc.com</dd>
+                                        <dt><i class="fas fa-mobile-alt"></i></dt>
+                                        <dd>987654321</dd>
+                                    </dl>
+                                </footer>
+                            </div>
+                        </section>
+                    </div>
+                </section>
+            </div>
+            <div class="one third">
+                <section class="gapped w3-card-2 fadeInUp animated">
+                    <header class="w3-container w3-blue">
+                        <h2>Registrar contacto</h2>
+                    </header>
+
+                    <form class="double-padded pure-form pure-form-aligned container">
+                        <fieldset class="pure-group">
+                            <input type="text" class="pure-input-1" placeholder="Nombre">
+                            <input type="email" class="pure-input-1" placeholder="Correo">
+                            <input type="tel" class="pure-input-1" placeholder="Celular">
+
+                        </fieldset>
+                        <fieldset class="pure-group">
+                            <input type="file" class="pure-input-1" placeholder="Imagen" style="color: transparent" placeholder="Imagen">
+                        </fieldset>
+                        <br>
+                        <input class="w3-button w3-blue" type="submit" name="Guardar" value="Guardar" />
+                        <input class="w3-button w3-blue" type="reset" name="Borrar" value="Borrar formulario" />
+
+                    </form>
+                </section>
+            </div>
+        </div>
+
+    </div>
+
+
+    <footer class="padded block bottom success small box">
         <p>
             <abbr title="Universidad Nacional de Cajamarca">UNC</abbr>
             <br/>Facultad de Ingeniería
             <br/>Escuela Académico Profesional de Ingeniería de Sistemas
         </p>
-        <address>
-            Autor:Edson Guadalupe
-            <br/> 
-            Última modificación: 08 de mayo de 2019 
-        </address>
     </footer>
+
+
+    <!--js-->
+    <script type="text/javascript" src="css/groundwork-master/js/libs/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="css/groundwork-master/js/groundwork.all.js"></script>
 </body>
 
 </html>

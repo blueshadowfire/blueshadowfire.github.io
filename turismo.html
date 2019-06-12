@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <title>Document</title>
+    <title>Iweb: Turismo</title>
 
     <!--Metadatos del sitio web-->
     <meta name="author" content="Edson Guadalupe" />
@@ -16,112 +16,286 @@
 
     <!--Favicon-->
     <link rel="icon" type="image/png" href="img/html.png" />
+
+    <!-- Modernizr -->
+    <script src="css/groundwork-master/js/libs/modernizr-2.6.2.min.js"></script>
+    <!-- framework css -->
+    <link type="text/css" rel="stylesheet" href="css/groundwork-master/css/groundwork.css">
+    <link type="text/css" rel="stylesheet" href="css/w3.css">
+    <link type="text/css" rel="stylesheet" href="css/pure-release-1.0.0/pure.css">
+
     <!--Css-->
+    <!--
     <link rel="stylesheet" href="css/generic.css" type="text/css" />
-    <link rel="stylesheet" href="ifonts/style.css" type="text/css" />
+    -->
+    <!--Ifonts-->
+    <link rel="stylesheet" href="ifonts/icomoon/style.css" type="text/css" />
+    <link rel="stylesheet" href="ifonts/fontawesome-free-5.9.0-web/css/all.css" type="text/css" />
+
+    <!--Tfonts-->
+    <link href="https://fonts.googleapis.com/css?family=Courgette|Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/tfonts.css" type="text/css" />
+
 </head>
 
-<body>
-    <header>
-        <h1>Práctica 1 - Ingeniería web</h1>
-        <nav>
-            <a href="index.html"><span class="icon-home2"></span> Información personal</a>
-            <a href="contactos.html"><span class="icon-profile"></span> Contactos</a>
-            <a href="turismo.html"><span class="icon-bookmark"></span> Turismo Cajamarca</a>
-            <a href="prueba.html"><span class="icon-html-five"></span> Prueba</a>
-            <a href="ejercicio1.html"><img src="imgZozor/zozor_logo.png"></img> Zozor</a>
+<body class="container">
+    <header class="top padded">
+        <div class="row">
+            <div class="three sixths pulse animated ">
+                <a href="index.html">
+                    <div class="one third">
+                        <img src="img/iWeb.png" alt="Iweb" width="100%" />
+                    </div>
+                    <div class="one thirds pad-top">
+                        <h1 class="w3-text-black tfont-Courgette">Ingeniería Web</h1>
+                    </div>
+                </a>
+            </div>
+            <div class="two sixths right-one triple-gap-top">
+                <address class="info box small lightSpeedIn animated ">
+                            Autor:Edson Guadalupe
+                            <br/> 
+                            Última modificación: 12 de junio de 2019 
+                        </address>
+                <div class="padded pull-right fadeInLeft animated">
+                    <ul class="button-group">
+                        <li>
+                            <button class="info"><i class="fab fa-facebook-f"></i></button>
+                        </li>
+                        <li>
+                            <button class="red"><i class="fab fa-google-plus-g"></i></button>
+                        </li>
+                        <li>
+                            <button class="info"><i class="fab fa-twitter"></i></button>
+                        </li>
+                        <li>
+                            <button class="red"><i class="fab fa-pinterest-p"></i></button>
+                        </li>
+
+                        <li>
+                            <button class="info"><i class="fab fa-linkedin-in"></i></button>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <nav class="nav orange">
+            <ul>
+                <li><a class="orange button" href="index.html"><span class="icon-home2"></span> Información personal</a></li>
+                <li><a class="orange button" href="contactos.html"><span class="icon-profile"></span> Contactos</a></li>
+                <li><a class="orange button" href="turismo.html"><span class="icon-bookmark"></span> Turismo Cajamarca</a></li>
+                <li><a class="orange button" href="ejercicio1.html"> Zozor</a></li>
+            </ul>
         </nav>
     </header>
 
-    <section>
-        <h2>Turismo Cajamarca</h2>
+    <section class="double-gapped w3-card">
+        <header class="w3-container w3-blue">
+            <h2>Turismo Cajamarca</h2>
+        </header>
+        <div class="w3-container gap-top">
+            <section class="padded">
+                <header class="w3-container w3-deep-purple">
+                    <h3 class="tfont-IndieFlower">Reseña histórica</h3>
+                </header>
+                <div class="w3-sand">
+                    <div class="padded  row">
+                        <div class="one third box orange gap-bottom bounceInLeft animated">
+                            <p class="tfont-OpenSans justify">
+                                La bella Cajamarca es considerada Patrimonio Histórico y Cultural de las Américas, pues además de sus maravillosos paisajes, fue escenario de importantes eventos históricos. Tiempo antes de la conquista de los Incas, existió en estas tierras una legendaria
+                                cultura, Caxamarca, descubierta por el célebre arqueólogo Julio C.Tello, cuyo principal legado como cultura son más de 90 sitios arqueológicos.
 
-        <section>
-            <h3>Reseña histórica</h3>
-            <p>
-                La bella Cajamarca es considerada Patrimonio Histórico y Cultural de las Américas, pues además de sus maravillosos paisajes, fue escenario de importantes eventos históricos. Tiempo antes de la conquista de los Incas, existió en estas tierras una legendaria
-                cultura, Caxamarca, descubierta por el célebre arqueólogo Julio C.Tello, cuyo principal legado como cultura son más de 90 sitios arqueológicos.
-                <br/>
-                <br/> Cajamarca (en quechua: <q>Kashamarka</q>, <dfn>pueblo de espinas</dfn>; Fundada: San Antonio de Cajamarca ) es una ciudad del norte del Perú, capital del Departamento y de la Provincia de Cajamarca, situada a 2720 msnm en la vertiente
-                oriental de la Cordillera de los Andes, en la sierra norte del país. El sitio de Cajamarca ha sido habitado con anterioridad durante la era incaica, durante la cual ya era un centro poblado importante. En 1532, se produjo en este lugar
-                la captura de Atahualpa durante la conquista del Perú. En la época de la colonia mantuvo su categoría de villa hasta el 19 de diciembre de 1802, poco antes de la Independencia cuando fue fundada como ciudad y recibió su escudo de armas.
-            </p>
-        </section>
+                            </p>
+                        </div>
+                        <div style="height: inherit" class="two thirds pad-left pad-right bounceInRight animated">
+                            <iframe height="400px" width="100%" src="https://www.youtube.com/embed/5wqbNeIYvjw" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
 
-        <section>
-            <h2>Video promocional</h2>
-            <iframe width="853" height="480" src="https://www.youtube.com/embed/5wqbNeIYvjw" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </section>
+                    <div class="box green gapped">
+                        <p class="tfont-OpenSans justify">Cajamarca (en quechua: <q>Kashamarka</q>, <dfn>pueblo de espinas</dfn>; Fundada: San Antonio de Cajamarca ) es una ciudad del norte del Perú, capital del Departamento y de la Provincia de Cajamarca, situada a 2720 msnm en la vertiente
+                            oriental de la Cordillera de los Andes, en la sierra norte del país. El sitio de Cajamarca ha sido habitado con anterioridad durante la era incaica, durante la cual ya era un centro poblado importante. En 1532, se produjo en
+                            este lugar la captura de Atahualpa durante la conquista del Perú. En la época de la colonia mantuvo su categoría de villa hasta el 19 de diciembre de 1802, poco antes de la Independencia cuando fue fundada como ciudad y recibió
+                            su escudo de armas.</p>
+                    </div>
+                </div>
 
-        <section class="turismo">
-            <h3>Principales lugares turísticos</h3>
-            <section>
-                <h4>Baños del inca</h4>
-                <img src="img/banos-del-inca.jpg" alt="Baños del inca" height="400" />
-                <h5>Detalle</h5>
-                <p>
-                    Es un balneario medicinal que atrae a turistas nacionales e internacionales. Sus aguas alcanzan temperaturas de 72 °C (158 °F) y contienen sodio, hierro, magnesio, potasio, calcio, litio, estroncio y sílice. Por estas propiedades químicas ayudan al tratamiento
-                    de enfermedades reumáticas, bronquiales, nerviosas y de la piel. Asimismo, los Baños del Inca ofrecen el servicio de pozas colectivas, pozas individuales, piscinas al aire libre, servicios de masajes, baños sauna que incluyen tratamientos
-                    con eucalipto, entre otros. Relajarse en estas aguas terapéuticas es un placer inolvidable.
-                </p>
             </section>
+            <section class="gapped w3-sand">
+                <header class="w3-container w3-deep-purple">
+                    <h3 class="tfont-IndieFlower">Principales lugares turísticos</h3>
+                </header>
 
-            <section>
-                <h4>Cumbemayo</h4>
-                <img src="img/cumbemayo.jpg" alt="Cumbemayo" height="400" />
-                <h5>Detalle</h5>
-                <p>
-                    Descubierto en 1937, está rodeado por un interesante bosque de piedras que parecen reproducir las siluetas de piadosos frailes (por lo que familiarmente se les denomina <q>frailones</q>). Además, destacan el Acueducto (1000 a.C.),
-                    singular obra de ingeniería hidráulica; el denominado Santuario, farallón con apariencia de una gigantesca cabeza humana; y Las Cuevas, donde existen grabados o petroglifos.
-                </p>
+                <div class="tabs padded w3-transparent">
+                    <ul role="tablist">
+                        <li class="w3-deep-orange" role="tab" aria-controls="#tab1">
+                            <h4>Baños del inca</h4>
+                        </li>
+                        <li class="w3-deep-orange" role="tab" aria-controls="#tab2">
+                            <h4>Cumbemayo</h4>
+                        </li>
+                    </ul>
+                    <div id="tab1" role="tabpanel">
+                        <section>
+                            <div class="one fourth box green padded gap-top">
+                                <p class="tfont-OpenSans justify">
+                                    Es un balneario medicinal que atrae a turistas nacionales e internacionales. Sus aguas alcanzan temperaturas de 72 °C (158 °F) y contienen sodio, hierro, magnesio, potasio, calcio, litio, estroncio y sílice. Por estas propiedades químicas ayudan al tratamiento
+                                    de enfermedades reumáticas, bronquiales, nerviosas y de la piel. Asimismo, los Baños del Inca ofrecen el servicio de pozas colectivas, pozas individuales, piscinas al aire libre, servicios de masajes, baños sauna que
+                                    incluyen tratamientos con eucalipto, entre otros. Relajarse en estas aguas terapéuticas es un placer inolvidable.
+                                </p>
+                            </div>
+                            <div class="three fourths padded">
+                                <div class="w3-content" style="max-width:1200px">
+                                    <img class="mySlides" src="img/banos-del-inca.jpg" alt="Baños del inca" style="width:100%">
+                                    <img class="mySlides" src="img/banos-del-inca2.jpg" alt="Baños del inca" style="width:100%;display:none">
+                                    <img class="mySlides" src="img/banos-del-inca3.jpg" alt="Baños del inca" style="width:100%;display:none">
+
+                                    <div class="w3-row-padding w3-section">
+                                        <div class="w3-col s4">
+                                            <img class="demo w3-opacity w3-hover-opacity-off" src="img/banos-del-inca.jpg" alt="Baños del inca" style="width:100%;cursor:pointer" onclick="currentDiv(1)">
+                                        </div>
+                                        <div class="w3-col s4">
+                                            <img class="demo w3-opacity w3-hover-opacity-off" src="img/banos-del-inca2.jpg" alt="Baños del inca" style="width:100%;cursor:pointer" onclick="currentDiv(2)">
+                                        </div>
+                                        <div class="w3-col s4">
+                                            <img class="demo w3-opacity w3-hover-opacity-off" src="img/banos-del-inca3.jpg" alt="Baños del inca" style="width:100%;cursor:pointer" onclick="currentDiv(3)">
+                                        </div>
+                                    </div>
+                                    <script>
+                                        function currentDiv(n) {
+                                            showDivs(slideIndex = n);
+                                        }
+
+                                        function showDivs(n) {
+                                            var i;
+                                            var x = document.getElementsByClassName("mySlides");
+                                            var dots = document.getElementsByClassName("demo");
+                                            if (n > x.length) {
+                                                slideIndex = 1
+                                            }
+                                            if (n < 1) {
+                                                slideIndex = x.length
+                                            }
+                                            for (i = 0; i < x.length; i++) {
+                                                x[i].style.display = "none";
+                                            }
+                                            for (i = 0; i < dots.length; i++) {
+                                                dots[i].className = dots[i].className.replace(" w3-opacity-off", "");
+                                            }
+                                            x[slideIndex - 1].style.display = "block";
+                                            dots[slideIndex - 1].className += " w3-opacity-off";
+                                        }
+                                    </script>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div id="tab2" role="tabpanel">
+                        <section>
+                            <div class="one fourth box green padded gap-top">
+                                <p class="tfont-OpenSans justify">
+                                    Descubierto en 1937, está rodeado por un interesante bosque de piedras que parecen reproducir las siluetas de piadosos frailes (por lo que familiarmente se les denomina <q>frailones</q>). Además, destacan el Acueducto
+                                    (1000 a.C.), singular obra de ingeniería hidráulica; el denominado Santuario, farallón con apariencia de una gigantesca cabeza humana; y Las Cuevas, donde existen grabados o petroglifos.
+                                </p>
+                            </div>
+                            <div class="three fourths padded">
+                                <div class="w3-content" style="max-width:1200px">
+                                    <img class="mySlides2" src="img/cumbemayo.jpg" alt="Cumbemayo" style="width:100%">
+                                    <img class="mySlides2" src="img/cumbemayo2.jpg" alt="Cumbemayo" style="width:100%;display:none">
+                                    <img class="mySlides2" src="img/cumbemayo3.jpg" alt="Cumbemayo" style="width:100%;display:none">
+
+                                    <div class="w3-row-padding w3-section">
+                                        <div class="w3-col s4">
+                                            <img class="demo2 w3-opacity w3-hover-opacity-off" src="img/cumbemayo.jpg" alt="Cumbemayo" style="width:100%;cursor:pointer" onclick="currentDiv2(1)">
+                                        </div>
+                                        <div class="w3-col s4">
+                                            <img class="demo2 w3-opacity w3-hover-opacity-off" src="img/cumbemayo2.jpg" alt="Cumbemayo" style="width:100%;cursor:pointer" onclick="currentDiv2(2)">
+                                        </div>
+                                        <div class="w3-col s4">
+                                            <img class="demo2 w3-opacity w3-hover-opacity-off" src="img/cumbemayo3.jpg" alt="Cumbemayo" style="width:100%;cursor:pointer" onclick="currentDiv2(3)">
+                                        </div>
+                                    </div>
+                                    <script>
+                                        function currentDiv2(n) {
+                                            showDivs2(slideIndex = n);
+                                        }
+
+                                        function showDivs2(n) {
+                                            var i;
+                                            var x = document.getElementsByClassName("mySlides2");
+                                            var dots = document.getElementsByClassName("demo2");
+                                            if (n > x.length) {
+                                                slideIndex = 1
+                                            }
+                                            if (n < 1) {
+                                                slideIndex = x.length
+                                            }
+                                            for (i = 0; i < x.length; i++) {
+                                                x[i].style.display = "none";
+                                            }
+                                            for (i = 0; i < dots.length; i++) {
+                                                dots[i].className = dots[i].className.replace(" w3-opacity-off", "");
+                                            }
+                                            x[slideIndex - 1].style.display = "block";
+                                            dots[slideIndex - 1].className += " w3-opacity-off";
+                                        }
+                                    </script>
+                                </div>
+                            </div>
+
+                        </section>
+                    </div>
+                </div>
             </section>
+            <section class="gapped w3-sand">
+                <header class="w3-container w3-deep-purple">
+                    <h3 class="tfont-IndieFlower">Datos adicionales</h3>
+                </header>
+                <div class="padded">
+                    <table data-max="15" class="responsive info ">
+                        <thead>
+                            <tr>
+                                <th colspan="2" class="align-center">
+                                    Ubicación
+                                </th>
+                            </tr>
+                            <tr>
+                                <th>Lugar turístico</th>
+                                <th>Distancia desde la ciudad de Cajamarca</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Baños del inca</td>
+                                <td>6 km al este</td>
+                            </tr>
+                            <tr>
+                                <td>Cumbemayo</td>
+                                <td>20 km al suroeste</td>
+                            </tr>
+                        </tbody>
 
-        </section>
+                    </table>
+                </div>
 
-        <section>
-            <h3>Datos adicionales</h3>
-            <table>
-                <tr>
-                    <th colspan="2">
-                        Ubicación
-                    </th>
-                </tr>
-                <tr>
-                    <th>Lugar turístico</th>
-                    <th>Distancia a la ciudad de Cajamarca</th>
-                </tr>
-                <tr>
-                    <td>Baños del inca</td>
-                    <td>6 km al este</td>
-                </tr>
-                <tr>
-                    <td>Cumbemayo</td>
-                    <td>20 km al suroeste</td>
-                </tr>
-            </table>
-        </section>
-
-        <aside>
-            <h3>Banner restaurantes</h3>
-        </aside>
-
-        <aside>
-            <h3>Banner hoteles</h3>
-        </aside>
+            </section>
+        </div>
     </section>
-
-    <footer>
+    <footer class="padded block bottom success small box">
         <p>
             <abbr title="Universidad Nacional de Cajamarca">UNC</abbr>
             <br/>Facultad de Ingeniería
             <br/>Escuela Académico Profesional de Ingeniería de Sistemas
         </p>
-        <address>
-            Autor:Edson Guadalupe
-            <br/> 
-            Última modificación: 08 de mayo de 2019 
-        </address>
     </footer>
+
+
+    <!--js-->
+    <script type="text/javascript" src="css/groundwork-master/js/libs/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="css/groundwork-master/js/groundwork.all.js"></script>
 </body>
 
 </html>
